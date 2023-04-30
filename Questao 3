@@ -1,0 +1,87 @@
+/*Utilizando CSS interno ou externo atenda os requisitos abaixo:
+
+Crie uma receita (obrigatório) utilizando os comandos de manipulação de fonte
+1. O texto deve ser alinhado ao centro
+2. Utilize o h1 para dizer o nome da receita e nele insira uma fonte(familia) diferente dos demais elementos
+3. Um dos ingredientes deve ter uma linha riscada
+4. O tempo de preparo deve ser em itálico 
+5. Para fins de estética visual pode se utilizar elementos background
+
+Extra para estudo adicional:
+6. Deve se colocar  na fonte cores de acordo com a prioridade dos ingredientes (Verde - obrigatorios / azul - a gosto)*/
+
+<!--HTML-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receita de Bolo de Banana</title>
+    <link rel="stylesheet" href="ATIVIDADE3.CSS" type="text/css">
+</head>
+<body>
+    <center>
+    <h1 class="p1">Bolo De Banana.</h1>
+    <p class="p2">Igredientes.</p>
+    <p class="p3">3 ovos
+        2 xícaras (chá) de açúcar<br/>
+        1 xícara (chá) de leite<br/>
+        1/2 xícara (chá) de óleo<br/>
+        2 xícaras (chá) de farinha de trigo<br/>
+        <del>1 colher (sopa) de fermento químico<br/></del>
+        7 bananas.</p>
+   <p class="p4">Modo de preparo.</p></del>
+    <p class="p5">Bata no liquidificador os ovos, o açúcar, o óleo e o leite.<br/>
+        Acrescente a farinha de trigo aos poucos e continue batendo até obter uma massa lisa e homogênea.<br/>
+        Adicione por último o fermento e bata na velocidade mínima do liquidificador.<br/>
+        Unte uma forma média com margarina e farinha.<br/>
+        Despeje o caramelo e as bananas cortadas no comprimento.<br/></P>
+       <P>Leve para assar em forno médio 180ºC, pré-aquecido por aproximadamente <I>30 minutos</I>.</p>
+    </center>
+   
+   
+   
+</body>
+</html>
+
+
+<!--CSS-->
+
+.p1{
+    font-family:'Courier New', Courier, monospace;
+    font-size: x-large;
+    font-style: normal;
+    font-weight: 800;
+}
+.p2{
+    font-family: monospace;
+    font-size: normal;
+    font-style: oblique;
+    font-weight: 500;
+    background-color: rgb(219, 219, 16);
+     
+}
+.p3{
+    font-family: monospace;
+    font-size: normal;
+    font-style: oblique;
+    font-weight: 500;
+    background-color: rgb(187, 63, 15);
+    color: green;
+}
+.p4{
+    font-family: monospace;
+    font-size: normal;
+    font-style: oblique;
+    font-weight: 500;
+    background-color: rgb(199, 14, 85);
+}
+.p5{
+    font-family: monospace;
+    font-size: normal;
+    font-style: oblique;
+    font-weight: 500;
+    background-color: rgb(47, 12, 202);
+}
