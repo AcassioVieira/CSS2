@@ -1,0 +1,78 @@
+/*Crie um Html com CSS que contenha os requisitos abaixo utilizando o assunto receita de bolo: Pode utilizar Css Inline , interno ou externo.
+Utilizando <p> crie :
+
+1.Paragrafo com fonte familia Courier , tamanho larger , estilo normal e grossura 800
+2.Paragrafo com fonte familia Verdana , tamanho small , estilo Italico e grossura 200
+3.Paragrafo com fonte familia monospace, tamanho normal , estilo oblicuo e grossura 500
+4.Paragrafo com fonte familia Fantasy , tamanho X-small , estilo normal e grossura 400*/
+
+<!--HTML-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receita de Bolo de Banana</title>
+    <link rel="stylesheet" href="receita de bolo.css" type="text/css">
+</head>
+<body>
+    <center>
+    <p class="p1">Bolo De Banana.</p>
+    <p class="p2">Igredientes.</p>
+    <p class="p3">3 ovos
+        2 xícaras (chá) de açúcar<br/>
+        1 xícara (chá) de leite<br/>
+        1/2 xícara (chá) de óleo<br/>
+        2 xícaras (chá) de farinha de trigo<br/>
+        1 colher (sopa) de fermento químico<br/>
+        7 bananas.</p>
+    <p class="p4">Modo de preparo.</p>
+    <p class="p5">Bata no liquidificador os ovos, o açúcar, o óleo e o leite.<br/>
+        Acrescente a farinha de trigo aos poucos e continue batendo até obter uma massa lisa e homogênea.<br/>
+        Adicione por último o fermento e bata na velocidade mínima do liquidificador.<br/>
+        Unte uma forma média com margarina e farinha.<br/>
+        Despeje o caramelo e as bananas cortadas no comprimento.<br/>
+        Leve para assar em forno médio 180ºC, pré-aquecido por aproximadamente 30 minutos.</p>
+    </center>
+   
+   
+   
+</body>
+</html>
+
+
+<!--CSS-->
+
+
+
+.p1{
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+    font-style: normal;
+    font-weight: 800;
+}
+.p2{
+    font-family: "verdana";
+    font-size: small;
+    font-style: italic;
+    font-weight: 200;
+}
+.p3{
+    font-family: monospace;
+    font-size: normal;
+    font-style: oblique;
+    font-weight: 500;
+}
+.p4{
+    font-family: fantasy;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: 400;
+}
+.p5{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-style: normal;
+    font-weight: 200;
